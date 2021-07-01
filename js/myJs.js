@@ -20,7 +20,7 @@ function firstQuestion(){
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("../img/iput-bg.jpg")',
-        imageAlt: 'cuteCat.jpg',
+        imageAlt: 'Custom image',
       }).then(function(){
         $('.content').show(200);
       })
@@ -97,7 +97,6 @@ $('#yes').click(function() {
     audio.play();
     Swal.fire({
         title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
-        color: black,
         html: true,
         width: 900,
         padding: '3em',
