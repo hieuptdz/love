@@ -97,7 +97,7 @@ $('#yes').click(function() {
     audio.play();
     Swal.fire({
         title: 'Nói cho tớ lí do cậu thích tớ đi :vvvv',
-        color: black,
+        color: red,
         html: true,
         width: 900,
         padding: '3em',
