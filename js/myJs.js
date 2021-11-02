@@ -20,7 +20,6 @@ function firstQuestion(){
         imageWidth: 300,
         imageHeight: 300,
         background: '#fff url("../img/iput-bg.jpg")',
-        image: '#fff url("../img/cuteCat.jpg")',
       }).then(function(){
         $('.content').show(200);
       })
